@@ -1,1 +1,1 @@
-console.log("Hello webpack");
+(()=>{"use strict";var o;console.log("Hello webpack"),o="jacks",console.log("ola ",o)})();
