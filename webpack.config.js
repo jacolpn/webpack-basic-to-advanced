@@ -5,5 +5,6 @@ module.exports = {
     output: { // configuração do arquivo de saída.
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
-    }
+    },
+    mode: 'development'
 }
