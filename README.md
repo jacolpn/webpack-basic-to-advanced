@@ -4,7 +4,8 @@
 - **Iniciar node:** npm init -y
 - **Instalar webpack:** npm i webpack webpack-cli
 - **Gerar o build:** npx webpack
-- **Instalaer loader css:** npm i --save-dev style-loader css-loader
+- **Instalar loader css:** npm i --save-dev style-loader css-loader
+- **Instalar loader imagem:** npm i --save-dev file-loader
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;
