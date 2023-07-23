@@ -1,5 +1,9 @@
 import saudacao from './saudacao.js';
+import Title from './components/title.js';
 
-console.log('Hello webpack');
+const title = new Title();
 
-saudacao('jacks');
+title.create('Primeira página');
+
+// console.log('Hello webpack');
+// saudacao('jacks');
