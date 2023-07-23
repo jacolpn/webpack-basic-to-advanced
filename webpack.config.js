@@ -31,6 +31,10 @@ module.exports = {
                         plugins: ['@babel/plugin-proposal-object-rest-spread']
                     }
                 }
+            },
+            {
+                test: /\.html$/,
+                use: 'html-loader'
             }
         ]
     }
