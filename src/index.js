@@ -11,5 +11,9 @@ title.create('Primeira página');
 image.insertImage();
 button.create();
 
+// Babel spread.
+const obj = {a: 1, b: 2, c: 3};
+let {a, b, ...teste} = obj;
+
 // console.log('Hello webpack');
 // saudacao('jacks');

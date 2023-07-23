@@ -7,6 +7,7 @@
 - **Instalar loader css:** npm i --save-dev style-loader css-loader
 - **Instalar loader imagem:** npm i --save-dev file-loader
 - **Instalar loader sass:** npm i --save-dev sass-loader AND npm i --save-dev node-sass
+- **Instalarr loader babel:** npm i --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;
