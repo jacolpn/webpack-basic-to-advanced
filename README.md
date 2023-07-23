@@ -9,6 +9,7 @@
 - **Instalar loader sass:** npm i --save-dev sass-loader AND npm i --save-dev node-sass
 - **Instalar loader babel:** npm i --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread
 - **Instalar loader html:** npm i --save-dev html-loader
+- **Instalar loader txt:** npm i --save-dev raw-loader
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;

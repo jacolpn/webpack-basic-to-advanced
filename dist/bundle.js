@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_title_title_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/title/title.js */ \"./src/components/title/title.js\");\n/* harmony import */ var _components_image_image_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/image/image.js */ \"./src/components/image/image.js\");\n/* harmony import */ var _components_button_button_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/button/button.js */ \"./src/components/button/button.js\");\n/* harmony import */ var _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/warning.html */ \"./src/templates/warning.html\");\n/* harmony import */ var _styles_warning_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/warning.css */ \"./src/styles/warning.css\");\n// import saudacao from './saudacao.js';\n\n\n\n\n\nvar title = new _components_title_title_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nvar image = new _components_image_image_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nvar button = new _components_button_button_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\ntitle.create('Primeira página');\nimage.insertImage();\nbutton.create();\n\n// Import de HTML\nvar body = document.querySelector('body');\nbody.innerHTML += _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n\n// Babel spread.\n// const obj = {a: 1, b: 2, c: 3};\n// let {a, b, ...teste} = obj;\n\n// console.log('Hello webpack');\n// saudacao('jacks');\n\n//# sourceURL=webpack://webpack-basic-to-advanced/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_title_title_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/title/title.js */ \"./src/components/title/title.js\");\n/* harmony import */ var _components_image_image_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/image/image.js */ \"./src/components/image/image.js\");\n/* harmony import */ var _components_button_button_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/button/button.js */ \"./src/components/button/button.js\");\n/* harmony import */ var _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/warning.html */ \"./src/templates/warning.html\");\n/* harmony import */ var _files_frase_txt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./files/frase.txt */ \"./src/files/frase.txt\");\n/* harmony import */ var _styles_warning_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/warning.css */ \"./src/styles/warning.css\");\n// import saudacao from './saudacao.js';\n\n\n\n\n\n\nvar title = new _components_title_title_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nvar image = new _components_image_image_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nvar button = new _components_button_button_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\ntitle.create('Primeira página');\nimage.insertImage();\nbutton.create();\n\n// Import de HTML.\nvar body = document.querySelector('body');\nbody.innerHTML += _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n\n// Import arquivo de texto.\nvar frase = _files_frase_txt__WEBPACK_IMPORTED_MODULE_4__[\"default\"];\nconsole.log(frase);\n\n// Babel spread.\n// const obj = {a: 1, b: 2, c: 3};\n// let {a, b, ...teste} = obj;\n\n// console.log('Hello webpack');\n// saudacao('jacks');\n\n//# sourceURL=webpack://webpack-basic-to-advanced/./src/index.js?");
 
 /***/ }),
 
@@ -117,6 +117,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<div>\\n    <p class=\\\"warning\\\">Você não pode acessar esta página!</p>\\n</div>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://webpack-basic-to-advanced/./src/templates/warning.html?");
+
+/***/ }),
+
+/***/ "./src/files/frase.txt":
+/*!*****************************!*\
+  !*** ./src/files/frase.txt ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"The webpack is topper!\");\n\n//# sourceURL=webpack://webpack-basic-to-advanced/./src/files/frase.txt?");
 
 /***/ }),
 

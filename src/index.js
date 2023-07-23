@@ -3,6 +3,7 @@ import Title from './components/title/title.js';
 import Image from './components/image/image.js';
 import Button from './components/button/button.js';
 import warning from './templates/warning.html';
+import fraseTxt from './files/frase.txt';
 import './styles/warning.css';
 
 const title = new Title();
@@ -13,9 +14,13 @@ title.create('Primeira página');
 image.insertImage();
 button.create();
 
-// Import de HTML
+// Import de HTML.
 const body = document.querySelector('body');
 body.innerHTML += warning;
+
+// Import arquivo de texto.
+const frase = fraseTxt;
+console.log(frase);
 
 // Babel spread.
     // const obj = {a: 1, b: 2, c: 3};
