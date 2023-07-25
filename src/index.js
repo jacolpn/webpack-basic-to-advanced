@@ -28,3 +28,4 @@ console.log(fraseTxt, descriptionJson);
 // console.log('Hello webpack');
 
 console.log(VERSION, PORT);
+console.log(process.env.API_KEY);
