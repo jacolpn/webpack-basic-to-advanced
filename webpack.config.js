@@ -1,5 +1,6 @@
 const path = require('path'); // pacote do node.
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js', // configuração do arquivo de entrada.
@@ -8,6 +9,10 @@ module.exports = {
         filename: 'bundle.js'
     },
     mode: 'development',
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()] // minificar o JS gerado no bundle.
+    },
     module: {
         rules: [
             {

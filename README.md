@@ -11,6 +11,7 @@
 - **Instalar loader html:** npm i --save-dev html-loader
 - **Instalar loader txt:** npm i --save-dev raw-loader
 - **Instalar plugin mini-css-extract-plugin (separar o css no bundle):** npm i --save-dev mini-css-extract-plugin
+- **Instalar plugin terser-webpack-plugin:** npm i --save-dev terser-webpack-plugin
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;
