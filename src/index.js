@@ -26,3 +26,5 @@ console.log(fraseTxt, descriptionJson);
     // let {a, b, ...teste} = obj;
 
 // console.log('Hello webpack');
+
+console.log(VERSION, PORT);
