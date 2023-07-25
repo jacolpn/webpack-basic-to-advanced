@@ -1,4 +1,5 @@
 const path = require('path'); // pacote do node.
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/index.js', // configuração do arquivo de entrada.
@@ -11,7 +12,7 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: [MiniCssExtractPlugin.loader, 'css-loader']
             },
             {
                 test: /\.(png|jpg|jpeg)$/,
@@ -41,5 +42,10 @@ module.exports = {
                 use: 'raw-loader'
             }
         ]
-    }
+    },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: 'styles.css' // nome do arquivo css que vai ser gerado separado do bundle.
+        })
+    ]
 }

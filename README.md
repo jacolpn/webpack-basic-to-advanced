@@ -4,12 +4,13 @@
 - **Iniciar node:** npm init -y
 - **Instalar webpack:** npm i webpack webpack-cli
 - **Gerar o build:** npx webpack
-- **Instalar loader css:** npm i --save-dev style-loader css-loader
+- **Instalar loader css:** npm i --save-dev style-loader css-loader *(usar o mini-css-extract-plugin)*
 - **Instalar loader imagem:** npm i --save-dev file-loader
 - **Instalar loader sass:** npm i --save-dev sass-loader AND npm i --save-dev node-sass
 - **Instalar loader babel:** npm i --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread
 - **Instalar loader html:** npm i --save-dev html-loader
 - **Instalar loader txt:** npm i --save-dev raw-loader
+- **Instalar plugin mini-css-extract-plugin (separar o css no bundle):** npm i --save-dev mini-css-extract-plugin
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;
