@@ -9,7 +9,7 @@ module.exports = {
     entry: './src/index.js', // configuração do arquivo de entrada.
     output: { // configuração do arquivo de saída.
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: '[name].[contenthash].js' // gerar hash unica em cada build.
     },
     mode: 'development',
     optimization: {
@@ -53,7 +53,8 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'styles.css' // nome do arquivo css que vai ser gerado separado do bundle.
+            // filename: 'styles.css' // nome do arquivo css que vai ser gerado separado do bundle.
+            filename: '[name].[contenthash].css' // gerar hash unica em cada build.
         }),
         new webpack.DefinePlugin({ // definicao de constantes globais.
             VERSION: JSON.stringify('1.0.0'),
