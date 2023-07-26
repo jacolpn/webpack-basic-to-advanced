@@ -13,6 +13,7 @@
 - **Instalar plugin mini-css-extract-plugin (separar o css no bundle):** npm i --save-dev mini-css-extract-plugin
 - **Instalar plugin terser-webpack-plugin:** npm i --save-dev terser-webpack-plugin
 - **Instalar plugin dotenv-webpack:** npm i --save-dev dotenv-webpack
+- **Instalar plugin html-webpack-plugin:** npm i --save-dev html-webpack-plugin
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;
