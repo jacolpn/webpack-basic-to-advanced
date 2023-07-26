@@ -4,6 +4,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const webpack = require('webpack');
 const DotenvPlugin = require('dotenv-webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js', // configuração do arquivo de entrada.
@@ -52,6 +53,7 @@ module.exports = {
         ]
     },
     plugins: [
+        new CleanWebpackPlugin(), // limpar os arquivos antigos gerados no build.
         new MiniCssExtractPlugin({
             // filename: 'styles.css' // nome do arquivo css que vai ser gerado separado do bundle.
             filename: '[name].[contenthash].css' // gerar hash unica em cada build.
