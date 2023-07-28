@@ -12,7 +12,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js' // gerar hash unica em cada build.
     },
-    mode: 'development',
+    mode: 'production',
     optimization: {
         minimize: true,
         minimizer: [new TerserPlugin()] // minificar o JS gerado no bundle.
