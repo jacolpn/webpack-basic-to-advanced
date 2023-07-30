@@ -10,6 +10,7 @@
 - **Instalar loader babel:** npm i --save-dev babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread
 - **Instalar loader html:** npm i --save-dev html-loader
 - **Instalar loader txt:** npm i --save-dev raw-loader
+- **Instalar loader url-loader (utilizei para importar as fonts):** npm i --save-dev url-loader
 - **Instalar plugin mini-css-extract-plugin (separar o css no bundle):** npm i --save-dev mini-css-extract-plugin
 - **Instalar plugin terser-webpack-plugin:** npm i --save-dev terser-webpack-plugin
 - **Instalar plugin dotenv-webpack:** npm i --save-dev dotenv-webpack

@@ -1,10 +1,12 @@
+import './fonts.css';
+import './styles/warning.css';
+
 import Title from './components/title/title.js';
 import Image from './components/image/image.js';
 import Button from './components/button/button.js';
 import warning from './templates/warning.html';
 import fraseTxt from './files/frase.txt';
 import descriptionJson from './files/description.json';
-import './styles/warning.css';
 
 import $ from 'jquery';
 
