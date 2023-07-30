@@ -9,6 +9,8 @@ import fraseTxt from './files/frase.txt';
 import descriptionJson from './files/description.json';
 
 import $ from 'jquery';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { faBacon } from '@fortawesome/free-solid-svg-icons';
 
 const title = new Title();
 const image = new Image();
@@ -38,3 +40,7 @@ console.log(process.env.API_KEY);
 const bodyJQuery = $('body');
 const p = $('<p></p>').text('Inserindo texto').css('color', 'red');
 bodyJQuery.append(p);
+
+
+library.add(faBacon);
+dom.watch();

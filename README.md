@@ -18,6 +18,7 @@
 - **Instalar plugin clean-webpack-plugin (limpar os arquivos antigos gerados no build):** npm i --save-dev clean-webpack-plugin
 - **Instalar servidor de desenvolvimento (hot reloading [vai ficar sempre atualizando a cada alteração]):** npm install --save-dev webpack-dev-server
 - **Instalar jQuery:** npm i --save-dev jquery
+- **Instalar Font Awesome:** npm i --save-dev @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;

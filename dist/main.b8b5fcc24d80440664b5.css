@@ -37,10 +37,8 @@
 .warning {
     padding: 20px;
     width: 100%;
-    background-color: green;
+    background-color: red;
     color: #FFF;
-    font-family: 'Handjet';
-    font-weight: 500;
 }
 
 .main-title {
