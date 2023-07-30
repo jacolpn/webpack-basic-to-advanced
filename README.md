@@ -19,6 +19,7 @@
 - **Instalar servidor de desenvolvimento (hot reloading [vai ficar sempre atualizando a cada alteração]):** npm install --save-dev webpack-dev-server
 - **Instalar jQuery:** npm i --save-dev jquery
 - **Instalar Font Awesome:** npm i --save-dev @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons
+- **Instalar Bootstrap:** npm i --save-dev bootstrap jquery @popperjs/core popper.js
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;

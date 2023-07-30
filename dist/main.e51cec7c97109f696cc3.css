@@ -34,6 +34,10 @@
     src: url(f4c77d41140a1826d608.ttf);
 }
 
+* {
+    font-family: 'Handjet';
+    font-weight: 600;
+}
 .warning {
     padding: 20px;
     width: 100%;

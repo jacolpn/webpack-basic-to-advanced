@@ -1,5 +1,8 @@
-import './fonts.css';
+import './styles/index.scss';
+import './styles/fonts.css';
 import './styles/warning.css';
+
+import 'bootstrap';
 
 import Title from './components/title/title.js';
 import Image from './components/image/image.js';
