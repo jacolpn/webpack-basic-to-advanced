@@ -16,6 +16,7 @@
 - **Instalar plugin html-webpack-plugin:** npm i --save-dev html-webpack-plugin
 - **Instalar plugin clean-webpack-plugin (limpar os arquivos antigos gerados no build):** npm i --save-dev clean-webpack-plugin
 - **Instalar servidor de desenvolvimento (hot reloading [vai ficar sempre atualizando a cada alteração]):** npm install --save-dev webpack-dev-server
+- **Instalar jQuery:** npm i --save-dev jquery
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;

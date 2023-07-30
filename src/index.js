@@ -6,6 +6,8 @@ import fraseTxt from './files/frase.txt';
 import descriptionJson from './files/description.json';
 import './styles/warning.css';
 
+import $ from 'jquery';
+
 const title = new Title();
 const image = new Image();
 const button = new Button();
@@ -29,3 +31,8 @@ console.log(fraseTxt, descriptionJson);
 
 console.log(VERSION, PORT);
 console.log(process.env.API_KEY);
+
+// Via JQuery.
+const bodyJQuery = $('body');
+const p = $('<p></p>').text('Inserindo texto').css('color', 'red');
+bodyJQuery.append(p);
