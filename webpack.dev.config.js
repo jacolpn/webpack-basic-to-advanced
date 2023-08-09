@@ -13,6 +13,7 @@ module.exports = {
         filename: '[name].[contenthash].js' // gerar hash unica em cada build.
     },
     mode: 'development', // 'production'
+    target: 'node',
     devServer: {
         contentBase: path.resolve(__dirname, './dist'),
         index: 'index.html',
@@ -52,6 +53,10 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/,
+            },
+            {
+                test: /\.ts$/,
+                use: ['ts-loader']
             },
             {
                 test: /\.html$/,

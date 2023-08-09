@@ -13,6 +13,7 @@ module.exports = {
         filename: '[name].[contenthash].js' // gerar hash unica em cada build.
     },
     mode: 'production',
+    target: 'node',
     optimization: {
         minimize: true,
         minimizer: [new TerserPlugin()] // minificar o JS gerado no bundle.
@@ -46,6 +47,10 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/,
+            },
+            {
+                test: /\.ts$/,
+                use: ['ts-loader']
             },
             {
                 test: /\.html$/,
