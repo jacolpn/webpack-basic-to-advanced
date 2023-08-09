@@ -21,6 +21,7 @@
 - **Instalar Font Awesome:** npm i --save-dev @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons
 - **Instalar Bootstrap:** npm i --save-dev bootstrap jquery @popperjs/core popper.js
 - **Instalar Bulma (substituto do Bootstrap):** npm i --save-dev bulma css-loader mini-css-extract-plugin node-sass sass-loader style-loader
+- **Instalar TypeScript:** npm i --save-dev typescript ts-loader
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;

@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js', // configuração do arquivo de entrada.
+    entry: './src/index.ts', // configuração do arquivo de entrada.
     output: { // configuração do arquivo de saída.
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js' // gerar hash unica em cada build.
@@ -49,6 +49,11 @@ module.exports = {
                 }
             },
             {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
+            {
                 test: /\.html$/,
                 use: 'html-loader'
             },
@@ -62,6 +67,7 @@ module.exports = {
             }
         ]
     },
+    resolve: { extensions: ['.tsx', '.ts', '.js'] },
     plugins: [
         new CleanWebpackPlugin(), // limpar os arquivos antigos gerados no build.
         new MiniCssExtractPlugin({
