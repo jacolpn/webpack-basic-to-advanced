@@ -85,5 +85,6 @@ module.exports = {
         }),
         new DotenvPlugin(),
         new HtmlWebpackPlugin({ filename: 'index.html', title: 'Modes' }), // gerar o index.html automaticamente, nao precisando criar o public/index.html
+        new webpack.ProvidePlugin({ _: 'lodash' })
     ]
 }

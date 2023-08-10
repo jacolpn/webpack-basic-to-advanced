@@ -4,6 +4,8 @@ import './styles/warning.css';
 
 import 'bootstrap';
 
+// import _ from 'lodash';
+
 import Title from './components/title/title.js';
 import Image from './components/image/image.js';
 import Button from './components/button/button.js';
@@ -38,6 +40,7 @@ console.log(fraseTxt, descriptionJson);
 
 console.log(VERSION, PORT);
 console.log(process.env.API_KEY);
+console.log('lodash: ', _.difference([1, 2, 3], [4, 5]));
 
 // Via JQuery.
 const bodyJQuery = $('body');

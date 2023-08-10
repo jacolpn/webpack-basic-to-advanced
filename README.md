@@ -23,6 +23,7 @@
 - **Instalar Bulma (substituto do Bootstrap):** npm i --save-dev bulma css-loader mini-css-extract-plugin node-sass sass-loader style-loader
 - **Instalar TypeScript:** npm i --save-dev typescript ts-loader
 - **Instalar Express:** npm i --save-dev express @types/express typescript ts-loader
+- **Instalar lodash:** npm i --save-dev lodash
 
 ## Conceitos:
 - **Exigências do webpack:** Node.js 10.13+ e recursos de ES5;
