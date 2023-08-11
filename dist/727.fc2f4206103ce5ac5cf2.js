@@ -1,0 +1,1 @@
+"use strict";exports.id=727,exports.ids=[727],exports.modules={727:(o,s,t)=>{t.r(s),t.d(s,{default:()=>e});const e=function(){console.log("is lazy load!")}}};

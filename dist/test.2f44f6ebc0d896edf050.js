@@ -1,0 +1,1 @@
+(()=>{var e={id:43,ids:[43]};e.modules={985:()=>{console.log("hello test.js")}};var s=require("./runtime~shared.56a58aab9133ebbdb31d.js");s.C(e),s.X(0,[712],(()=>(985,s(s.s=985))))})();
