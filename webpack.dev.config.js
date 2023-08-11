@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.ts', // configuração do arquivo de entrada.
+    entry: './src/index.js', // configuração do arquivo de entrada.
     output: { // configuração do arquivo de saída.
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js' // gerar hash unica em cada build.
@@ -18,7 +18,8 @@ module.exports = {
         contentBase: path.resolve(__dirname, './dist'),
         index: 'index.html',
         port: 8000,
-        historyApiFallback: { index: 'index.html' } // precisa ter instalado o html-webpack-plugin para gerar o index automaticamente.
+        historyApiFallback: { index: 'index.html' }, // precisa ter instalado o html-webpack-plugin para gerar o index automaticamente.
+        hot: true
     },
     optimization: {
         minimize: true,
