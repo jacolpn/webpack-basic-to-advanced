@@ -34,3 +34,7 @@
 - **Plugins:** São funcionalidades (pacotes) que podem ser adicionadas ao nosso projeto;
 - **Mode/Mono:** Forma que o webpack vai rodar no projeto que está sendo executado; *(ex: production ou development)*
 -
+
+## Útil:
+- Análise de webpack: http://alexkuz.github.io/webpack-chart/ (npx webpack --profile --json=status.json)
+- 
